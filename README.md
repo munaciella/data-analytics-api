@@ -34,8 +34,8 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/munaciella/data-analytics-api
+   cd data-analytics-api
    ```
 
 2. **Install dependencies**:
@@ -50,13 +50,13 @@ Ensure you have the following installed on your machine:
    - Ensure PostgreSQL is running.
    - Create a new database:
      ```bash
-     createdb <your_database_name>
+     createdb ultimate_hero
      ```
    - Update the `.env` file with your database credentials.
 
 5. **Run database migrations**:
    ```bash
-   psql -d <your_database_name> -f ./migrations/<migration_file.sql>
+   psql -d ultimate_hero -f ./migrations/<migration_file.sql>
    ```
 
 6. **Seed the database**:
