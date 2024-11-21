@@ -1,4 +1,4 @@
-# Backend API with TypeScript and PostgreSQL
+# Data Analytics Backend API with TypeScript and PostgreSQL
 
 ## Description
 
